@@ -15,7 +15,7 @@ public class VoiceSpawner : Widget {
     public AudioClip sorryClip;
     public List<AudioClip> helpClips;
 
-    private Conversation m_Conversation = new Conversation();
+	private Conversation m_Conversation = new Conversation();
     private string m_WorkspaceID;
 
     [SerializeField]
