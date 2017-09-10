@@ -1,1 +1,389 @@
-{"name":"IBM Speech Sandbox Cardboard","created":"2017-09-10T04:08:43.916Z","intents":[{"intent":"clear","created":"2017-09-10T09:31:08.864Z","updated":"2017-09-10T09:32:32.837Z","examples":[{"text":"clear","created":"2017-09-10T09:31:30.024Z","updated":"2017-09-10T09:31:30.024Z"},{"text":"clear all","created":"2017-09-10T09:31:35.326Z","updated":"2017-09-10T09:31:35.326Z"},{"text":"restart","created":"2017-09-10T09:31:41.131Z","updated":"2017-09-10T09:31:41.131Z"},{"text":"destroy all","created":"2017-09-10T09:31:46.634Z","updated":"2017-09-10T09:31:46.634Z"},{"text":"clear everything","created":"2017-09-10T09:31:54.360Z","updated":"2017-09-10T09:31:54.360Z"},{"text":"restart the game","created":"2017-09-10T09:32:18.661Z","updated":"2017-09-10T09:32:18.661Z"},{"text":"destroy everything","created":"2017-09-10T09:32:32.837Z","updated":"2017-09-10T09:32:32.837Z"}],"description":null},{"intent":"destroy","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","examples":[{"text":"S. droid ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"the story ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"delete","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"destroy","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"eviscerate","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"get rid of","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"remove","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"Roy ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"}],"description":null},{"intent":"null","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","examples":[{"text":"this is not an actual command","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"this is me just talking about nothing","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"i'm not really saying anything at all","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"i didn't mean to do that","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"here I'm giving a demonstration to someone and don't want it to register","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"but a lot of ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"}],"description":null},{"intent":"help","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","examples":[{"text":"how ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"what objects are there","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"what is this","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"what do i do","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"what can i make","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"what can i create","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"help ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"}],"description":null},{"intent":"move","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","examples":[{"text":"move up ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"move left ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"move the left ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"moves closer ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"move further ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"move away","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"move out","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"move farther","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"}],"description":null},{"intent":"create","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","examples":[{"text":"make a cube","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"make a ball","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"make a","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"create a red Cuba ","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"gun","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"give me","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"cube","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"create a cube","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"create a ball","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"create a","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"box","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"ball","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"create a gun","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"I want a","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"},{"text":"tree","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z"}],"description":null}],"updated":"2017-09-10T09:32:32.837Z","entities":[{"entity":"direction","values":[{"value":"right","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]},{"value":"closer","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":["in","near"]},{"value":"farther","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":["out","further","away"]},{"value":"up","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":["higher"]},{"value":"left","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]}],"created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"description":null},{"entity":"object","values":[{"value":"cube","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":["box","square"]},{"value":"ball","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":["sphere"]}],"created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"description":null},{"entity":"material","values":[{"value":"black","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]},{"value":"teal","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]},{"value":"white","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]},{"value":"orange","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]},{"value":"green","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]},{"value":"purple","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]},{"value":"blue","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]},{"value":"red","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":[]}],"created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"description":null},{"entity":"scale","values":[{"value":"big","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":["gigantic","huge","large","massive","tremendous"]},{"value":"small","created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"synonyms":["little","mini","miniature","miniscule","tiny"]}],"created":"2017-09-10T04:08:43.916Z","updated":"2017-09-10T04:08:43.916Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Workspace for the open-source version of the Speech Sandbox.","dialog_nodes":[],"workspace_id":"fd88ae38-b103-4ba2-9ae7-73ae36ca69ae","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "IBM Speech Sandbox Cardboard",
+	"created": "2017-09-10T04:08:43.916Z",
+	"intents": [{
+		"intent": "clear",
+		"created": "2017-09-10T09:31:08.864Z",
+		"updated": "2017-09-10T09:32:32.837Z",
+		"examples": [{
+			"text": "clear",
+			"created": "2017-09-10T09:31:30.024Z",
+			"updated": "2017-09-10T09:31:30.024Z"
+		}, {
+			"text": "clear all",
+			"created": "2017-09-10T09:31:35.326Z",
+			"updated": "2017-09-10T09:31:35.326Z"
+		}, {
+			"text": "restart",
+			"created": "2017-09-10T09:31:41.131Z",
+			"updated": "2017-09-10T09:31:41.131Z"
+		}, {
+			"text": "destroy all",
+			"created": "2017-09-10T09:31:46.634Z",
+			"updated": "2017-09-10T09:31:46.634Z"
+		}, {
+			"text": "clear everything",
+			"created": "2017-09-10T09:31:54.360Z",
+			"updated": "2017-09-10T09:31:54.360Z"
+		}, {
+			"text": "restart the game",
+			"created": "2017-09-10T09:32:18.661Z",
+			"updated": "2017-09-10T09:32:18.661Z"
+		}, {
+			"text": "destroy everything",
+			"created": "2017-09-10T09:32:32.837Z",
+			"updated": "2017-09-10T09:32:32.837Z"
+		}],
+		"description": null
+	}, {
+		"intent": "destroy",
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"examples": [{
+			"text": "S. droid ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "the story ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "delete",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "destroy",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "eviscerate",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "get rid of",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "remove",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "Roy ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}],
+		"description": null
+	}, {
+		"intent": "null",
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"examples": [{
+			"text": "this is not an actual command",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "this is me just talking about nothing",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "i'm not really saying anything at all",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "i didn't mean to do that",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "here I'm giving a demonstration to someone and don't want it to register",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "but a lot of ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}],
+		"description": null
+	}, {
+		"intent": "help",
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"examples": [{
+			"text": "how ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "what objects are there",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "what is this",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "what do i do",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "what can i make",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "what can i create",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "help ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}],
+		"description": null
+	}, {
+		"intent": "move",
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"examples": [{
+			"text": "move up ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "move left ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "move the left ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "moves closer ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "move further ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "move away",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "move out",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "move farther",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}],
+		"description": null
+	}, {
+		"intent": "create",
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"examples": [{
+			"text": "make a cube",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "make a ball",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "make a",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "create a red Cuba ",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "gun",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "give me",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "cube",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "create a cube",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "create a ball",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "create a",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "box",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "ball",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "create a gun",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "I want a",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}, {
+			"text": "tree",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-09-10T09:32:32.837Z",
+	"entities": [{
+		"entity": "direction",
+		"values": [{
+			"value": "right",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "closer",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": ["in", "near"]
+		}, {
+			"value": "farther",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": ["out", "further", "away"]
+		}, {
+			"value": "up",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": ["higher"]
+		}, {
+			"value": "left",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "object",
+		"values": [{
+			"value": "cube",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": ["box", "square"]
+		}, {
+			"value": "ball",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": ["sphere"]
+		}],
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "material",
+		"values": [{
+			"value": "black",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "teal",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "white",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "orange",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "green",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "purple",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "blue",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "red",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "scale",
+		"values": [{
+			"value": "big",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": ["gigantic", "huge", "large", "massive", "tremendous"]
+		}, {
+			"value": "small",
+			"created": "2017-09-10T04:08:43.916Z",
+			"updated": "2017-09-10T04:08:43.916Z",
+			"metadata": null,
+			"synonyms": ["little", "mini", "miniature", "miniscule", "tiny"]
+		}],
+		"created": "2017-09-10T04:08:43.916Z",
+		"updated": "2017-09-10T04:08:43.916Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Workspace for the open-source version of the Speech Sandbox.",
+	"dialog_nodes": [],
+	"workspace_id": "fd88ae38-b103-4ba2-9ae7-73ae36ca69ae",
+	"counterexamples": [],
+	"learning_opt_out": false
+}
