@@ -65,6 +65,7 @@ public class CreatableObject : MonoBehaviour {
 		{
 			mats.Add(_mKeys[i], _mValues[i]);
 		}
+		Debug.Log (mats.Count);
 	}
 	#endregion
 
@@ -81,6 +82,7 @@ public class CreatableObject : MonoBehaviour {
 
 		if (mats.ContainsKey(matKey))
 		{
+			Debug.Log (mats[matKey]);
 			Material mat = mats[matKey];
 			GetComponent<Renderer>().material = mat;
 		} else

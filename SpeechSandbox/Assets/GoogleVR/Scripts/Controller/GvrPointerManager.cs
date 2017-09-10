@@ -15,20 +15,59 @@
 using UnityEngine;
 using System.Collections;
 
-
-[System.Obsolete("Replaced by GvrPointerInputModule.")]
-[AddComponentMenu("")]
+/// GvrPointerManager is a standard interface for
+/// controlling which GvrBasePointer is being used
+/// for user input affordance.
+///
 public class GvrPointerManager : MonoBehaviour {
-  public static GvrBasePointer Pointer {
+  private static GvrPointerManager instance;
+
+  /// Change the GvrBasePointer that is currently being used.
+  public static GvrBasePointer Pointer
+  {
     get {
-      return GvrPointerInputModule.Pointer as GvrBasePointer;
+      return instance == null ? null : instance.pointer;
     }
     set {
-      GvrPointerInputModule.Pointer = value;
+      if (instance == null || instance.pointer == value) {
+        return;
+      }
+
+      instance.pointer = value;
     }
   }
 
+  /// GvrBasePointer calls this when it is created.
+  /// If a pointer hasn't already been assigned, it
+  /// will assign the newly created one by default.
+  ///
+  /// This simplifies the common case of having only one
+  /// GvrBasePointer so is can be automatically hooked up
+  /// to the manager.  If multiple GvrGazePointers are in
+  /// the scene, the app has to take responsibility for
+  /// setting which one is active.
   public static void OnPointerCreated(GvrBasePointer createdPointer) {
-    GvrPointerInputModule.OnPointerCreated(createdPointer);
+    if (instance != null && GvrPointerManager.Pointer == null) {
+      GvrPointerManager.Pointer = createdPointer;
+    }
+  }
+
+  private GvrBasePointer pointer;
+
+  void Awake() {
+    if (instance != null) {
+      Debug.LogError("More than one GvrPointerManager instance was found in your scene. "
+        + "Ensure that there is only one GvrPointerManager.");
+      this.enabled = false;
+      return;
+    }
+
+    instance = this;
+  }
+
+  void OnDestroy() {
+    if (instance == this) {
+      instance = null;
+    }
   }
 }

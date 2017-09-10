@@ -54,7 +54,7 @@ public class GvrAudioSource : MonoBehaviour {
     }
   }
   [SerializeField]
-  private AudioClip sourceClip = null;
+  public AudioClip sourceClip = null;
 
   /// Is the clip playing right now (Read Only)?
   public bool isPlaying {
@@ -440,7 +440,7 @@ public class GvrAudioSource : MonoBehaviour {
     if (audioSource != null) {
       audioSource.Stop();
       ShutdownSource();
-      isPaused = true;
+      isPaused = false;
     }
   }
 

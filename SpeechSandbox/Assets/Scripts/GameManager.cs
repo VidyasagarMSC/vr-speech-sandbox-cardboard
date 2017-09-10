@@ -162,6 +162,7 @@ public class GameManager : MonoBehaviour {
        
 			if (matKey != null && newObject.GetComponent<CreatableObject>().isCustomizable)
 			{
+				Debug.Log(matKey);
 				newObject.GetComponent<CreatableObject>().ApplyMaterial(matKey);
 				newObject.GetComponent<CreatableObject>().matKey = matKey;
 			}
@@ -174,6 +175,15 @@ public class GameManager : MonoBehaviour {
 			}
 		}
 	}
+
+    public virtual void ClearAllObjects()
+    {
+		GameObject[] GameObjects = GameObject.FindGameObjectsWithTag("Creatable");
+		for (int i = 0; i < GameObjects.Length; i++)
+		{
+			Destroy(GameObjects[i]);
+		}
+    }
 
     #endregion
 }

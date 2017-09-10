@@ -15,7 +15,7 @@ public class VoiceSpawner : Widget {
     public AudioClip sorryClip;
     public List<AudioClip> helpClips;
 
-	private Conversation m_Conversation = new Conversation();
+    private Conversation m_Conversation = new Conversation();
     private string m_WorkspaceID;
 
     [SerializeField]
@@ -31,7 +31,7 @@ public class VoiceSpawner : Widget {
         base.Start();
         //Below will work in Unity editor emulator, but not on the phone app:
         //m_WorkspaceID = Config.Instance.GetVariableValue("ConversationV1_ID");
-        m_WorkspaceID = "Put Your Workspace.ID here";
+		m_WorkspaceID = "fd88ae38-b103-4ba2-9ae7-73ae36ca69ae";
     }
 
     protected override string GetName()
@@ -119,6 +119,9 @@ public class VoiceSpawner : Widget {
                 {
                     gameManager.PlayClip(helpClips[Random.Range(0, helpClips.Count)]);
                 }
+            }else if(intent == "clear" || intent == "restart")
+            {
+                gameManager.ClearAllObjects();
             }
         } else
         {

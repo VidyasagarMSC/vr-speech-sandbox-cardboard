@@ -15,7 +15,36 @@
 using UnityEngine;
 using System.Collections;
 
-[System.Obsolete("Replaced by GvrTrackedController.")]
-[AddComponentMenu("")]
-public class GvrControllerVisualManager : GvrTrackedController {
+/// Manages when the visual elements of GvrControllerPointer should be active.
+/// When the controller is disconnected, the visual elements will be turned off.
+public class GvrControllerVisualManager : MonoBehaviour {
+#if UNITY_HAS_GOOGLEVR && (UNITY_ANDROID || UNITY_EDITOR)
+  private bool wasControllerConnected = false;
+
+  void Start() {
+    wasControllerConnected = IsControllerConnected();
+    SetChildrenActive(wasControllerConnected);
+  }
+
+  void Update() {
+    bool isControllerConnected = IsControllerConnected();
+    if (isControllerConnected != wasControllerConnected) {
+      SetChildrenActive(isControllerConnected);
+    }
+    wasControllerConnected = isControllerConnected;
+  }
+
+  private bool IsControllerConnected() {
+    return GvrController.State == GvrConnectionState.Connected;
+  }
+
+  /// Activate/Deactivate the children of the transform.
+  /// It is expected that the children will be the visual elements
+  /// of GvrControllerPointer (I.e. the Laser and the 3D Controller Model).
+  private void SetChildrenActive(bool active) {
+    for (int i = 0; i < transform.childCount; i++) {
+      transform.GetChild(i).gameObject.SetActive(active);
+    }
+  }
+#endif  // UNITY_HAS_GOOGLEVR && (UNITY_ANDROID || UNITY_EDITOR)
 }
